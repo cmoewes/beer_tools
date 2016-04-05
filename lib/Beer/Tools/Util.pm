@@ -2,6 +2,36 @@ package Beer::Tools::Util;
 
 use Moose;
 
+
+=head1 SYNOPSIS
+
+Quick summary of what the module does.
+
+Perhaps a little code snippet.
+
+    use Beer::Tools;
+
+    my $foo = Beer::Tools->new();
+    ...
+    
+=head1 SUBROUTINES/METHODS
+
+=head2 _sg_to_plato
+
+ my $sg = Beer::Tools::Util->_sg_to_plato(1.040);
+
+=head2 _plato_to_sg
+
+ my $plato = Beer::Tools::Util->_plato_to_sg(20);
+
+=head2 function1
+
+
+
+=cut
+
+    
+    
 sub _sg_to_plato {
 	my $self = shift;
 	my $sg   = shift;
