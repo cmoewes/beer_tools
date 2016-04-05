@@ -17,8 +17,6 @@ my $builder = Module::Build->new(
 	},
 	requires => {
 
-		#'ABC'              => 1.6,
-		#'Foo::Bar::Module' => 5.0401,
 		'Moose'            => 0,
 		'Params::Validate' => 0,
 
