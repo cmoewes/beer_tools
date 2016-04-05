@@ -1,0 +1,54 @@
+{
+   "abstract" : "The great new Beer::Tools!",
+   "author" : [
+      "Chris Moewes <chris.moewees@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4216",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Beer-Tools",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Moose" : "0",
+            "Params::Validate" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Beer::Tools" : {
+         "file" : "lib/Beer/Tools.pm",
+         "version" : "0.01"
+      },
+      "Beer::Tools::Partigyle" : {
+         "file" : "lib/Beer/Tools/Partigyle.pm"
+      },
+      "Beer::Tools::Util" : {
+         "file" : "lib/Beer/Tools/Util.pm"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://www.perlfoundation.org/artistic_license_2_0"
+      ]
+   },
+   "version" : "0.01",
+   "x_serialization_backend" : "JSON::PP version 2.27300"
+}

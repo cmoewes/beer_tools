@@ -1,0 +1,30 @@
+---
+abstract: 'The great new Beer::Tools!'
+author:
+  - 'Chris Moewes <chris.moewees@gmail.com>'
+build_requires:
+  Test::More: '0'
+configure_requires:
+  Module::Build: '0'
+dynamic_config: 0
+generated_by: 'Module::Build version 0.4216, CPAN::Meta::Converter version 2.150005'
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Beer-Tools
+provides:
+  Beer::Tools:
+    file: lib/Beer/Tools.pm
+    version: '0.01'
+  Beer::Tools::Partigyle:
+    file: lib/Beer/Tools/Partigyle.pm
+  Beer::Tools::Util:
+    file: lib/Beer/Tools/Util.pm
+requires:
+  Moose: '0'
+  Params::Validate: '0'
+resources:
+  license: http://www.perlfoundation.org/artistic_license_2_0
+version: '0.01'
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
